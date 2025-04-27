@@ -1,10 +1,10 @@
-# 1. Importar el módulo tello de la librería djitellopy
+# 1. Importar el modulo tello de la librería djitellopy
 from djitellopy import tello
 
 # 2. Crear una instancia del objeto Tello
 drone = tello.Tello()
 
-# 3. Establecer una conexión con el dron. Recordar que hay que conectarse a la WiFi del dron.
+# 3. Establecer una conexion con el dron. Recordar que hay que conectarse a la WiFi del dron.
 drone.connect()
 
 # 4. Enviar el comando de despegue.
@@ -16,5 +16,5 @@ drone.rotate_clockwise(360)
 # 6. Enviar el comando de aterrizaje
 drone.land()
 
-# 7. Terminar la ejecución
+# 7. Terminar la ejecucion
 drone.end()
